@@ -1,0 +1,33 @@
+## Zadanie do artykułu:
+
+1. Pobierz i uruchom VSC 
+		- zrobione 
+
+2. Zmień theme na inny, np. light mode 
+		- zrobione i na odwrót
+
+3. *** Utwórz nowy plik index.html korzystając z VSC,
+		-(new file -> zapisz jako index.html)
+
+4. Zainstaluj wtyczkę Live Server i wyjaśnij do czego służy - live server to wtyczka umożliwiająca automatyczne przeładowanie strony po wprowadzeniu zmian w kodzie, bez konieczności odświerzania samoej przeglądarki
+
+5. Zainstaluj wtyczkę Prettier i wyjaśnij do czego służy - to wtyczka formatująca nasz kod na drzewo składni. dba abyśmy nie popełniali błędów składniowych
+
+6. *** Poszukaj informacji na temat dowolnej paczki w VSC. Do czego ona służy? 
+		GitLens - Git supercharged to paczka służąca do płynnego nawigowania i ekplorowania repozytoriów Gita
+
+7. *** Czy wiesz jak otworzyć terminal wewnątrz VSC? 
+	- tak, trzecie okno ->terminal. albo menu terminal ->new terminal
+
+	- ctrl+shift+C - terminal poza vsc
+	- crrl+shift+` - new terminal
+
+
+8. *** Znajdź krótki samouczek po terminalu, tj. jak wejść do folderu wyżej za pomocą komendy, jak wejść do środka folderu, itd.
+		- znalazłem i sobie zapisałme. Razem ze skrótami klawiszowymi będę chciał sobie wypisać komendy terminala do zeszytu ;)
+
+9. *** Wydrukuj sobie skróty klawiszowe obowiązujące w VSC (zwróć głównie uwagę na kopiowanie w dół, komentarze, kursor ustawiony w kilku liniach jednocześnie, zaznaczanie killku elementów o tej samej nazwie).
+	-zrobione
+
+10. *** Zainstaluj paczkę Auto Rename Tag - opisz w skrócie do czego służy 
+	- służy do automatycznego dodawania tagów zamykającychaby się nie pokićkało i od razu było piękniej

@@ -1,0 +1,47 @@
+## Zadania
+
+1. Stwórz konto na github,
+
+	- zrobione
+
+2. Stwórz repozytorium na github,
+	
+- zrobione
+
+3. Jaka jest różnica między prywatnym a publicznym repozytorium?
+
+	do prywatnego musisz dać dostęp a do publicznego nie
+
+4. Czy możemy utworzyć taką nazwę repo? “Moje repozytorium”, czyli z użyciem spacji?
+	
+	tak, githab sam zamieni spacje na myślniki
+
+5. *** Zmień zdjęcie profilowe w avatarze na github,
+
+	zmieniłem
+
+
+6. *** Wiesz do czego służy plik .gitignore?
+
+	- do zatwierdzania plików ignorowanych (różnych artefaktów kompilacji)
+
+
+7. *** Znajdź miejsce gdzie zmienisz szablon na dark mode 🙂
+
+	- cały czas jest Dark Modowy ;)
+
+
+8. *** Czy wiesz jak usunąć repozytorium?
+
+	Wiem. Wchodzisz w repozytoria, wybierasz repozytorium które chcesz usunąć, wchodzisz w ustawienia (zębate kółko) 
+	i klikasz usuń w sekcji Danger Zone ;). Jeszcze potwierdzasz 'login/nazwa_repo'     i już!!
+
+
+9. *** Czy Twoje repozytorium może mieć taką samą nazwę jak repozytorium kogoś innego na innym koncie?
+
+	napewno!
+
+
+10. Wymyśl zadanie z powyższego tematu dla kogoś innego aby mógł przećwiczyć to co było poruszone w tym temacie.
+
+	wymyślam ;)

@@ -1,0 +1,33 @@
+# 11. HTML - Projekty
+
+# Wstęp
+
+> W końcu długo wyczekiwana przez wszystkich sekcja praktyczna. Zakoduj poniższe widoki używając wszystkich poznanych znaczników HTML.
+> 
+
+## Wytyczne
+
+- Do stworzenia są 3 strony:
+1) formularz rejestracji,
+2) strona aktywacji maila,
+3) strona ćwiczeniowa z HTML-a
+- Każda ze stron powinna być wykonana jedynie z użyciem HTML. NIE DOŁĄCZAMY ŻADNYCH STYLI CSS 🙂
+- Po wykonaniu zadań wrzuć je do zdalnego repozytorium i podeślij mentorowi.
+
+1. **Formularz rejestracji** 
+
+W edytorze kodu VSC (Visual Studio Code) utwórz plik o nazwie form.html i postaraj się wiernie odwzorować poniższy formularz rejestracji oraz jego strukturę.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/862f77e8-512c-4cd2-976d-3c2ba59bbdea/Untitled.png)
+
+ 2.   **Sprawdź swoją pocztę**
+
+W edytorze kodu VSC (Visual Studio Code) utwórz plik o nazwie mailbox.html i postaraj się wiernie odwzorować poniższy widok oraz jego strukturę.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b6385b40-9e05-4285-85b4-a6b566b6a58b/Untitled.png)
+
+ 3.   **Zabawa z elementami HTML**
+
+W edytorze kodu VSC (Visual Studio Code) utwórz plik o rozszerzeniu .html i postaraj się wiernie odwzorować poniższy widok oraz jego strukturę.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb77717e-5f8b-4140-b1f3-b7b70cf7c3f6/Untitled.png)

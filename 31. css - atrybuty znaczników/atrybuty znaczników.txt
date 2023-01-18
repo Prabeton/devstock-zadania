@@ -1,0 +1,83 @@
+## Zadania
+
+1. Jaka wartość w poniższym kodzie odpowiada za ustawienie lewego paddingu?
+    
+    ```css
+    padding: 5px 10px 15px 20px;
+    ```
+    
+    a) 5px
+    b) 10px
+    c) 15px
+    ********************** d) 20px
+    
+2. Na podstawie poniższego kodu odpowiedz jaką wartość przyjmie dolny margin:
+    
+    ```css
+    margin: 10px 20px;
+    ```
+    
+    ********************* a) 10px
+    
+    b) 20px
+    
+    c) wartość dolnego marginu nie jest zdefiniowana
+    
+3. Za pomocą której właściwości można zmienić grubość borderu?
+
+a) border-size: 4px;
+b) border-width: 4px;
+c) *********************** d)border-weight: 4px;
+
+4. Jaka wartość przypisana do atrybutu *display* spowoduje, 
+że element będzie zajmować całą szerokość jaką posiadał jego rodzic?
+
+a) inline-block
+***************** b) block
+c) flex
+d) inline
+
+5. Korzystając z poprzednich lekcji utwórz pliki *index.html* oraz *style.css*. 
+Powiąż plik html z css za pomocą elementu <link> w sekcji <head>. 
+Następnie utwórz element 'h1' w sekcji <body>, wewnątrz którego wpiszesz tekst “Lista 
+zakupów”. Za pomocą selektora nadaj mu color czcionki niebieski.
+
+    - zrobione
+
+6. Poniżej elementu ‘h1’ utwórz nieuporządkowaną listę dla co najmniej 5 produktów,
+ które masz zamiar kupić w sklepie. Zmień kolor tła na żółty.
+
+    - zrobione
+
+7. Stwierdzasz, że elementy na liście są zbyt blisko siebie, 
+dlatego ustaw padding dla każdego elementu z listy na 10px i zmień rozmiar
+ tekstu na 22px.
+
+    - zrobione
+
+8. Poniżej listy chcesz aby znalazło się miejsce na notatki, 
+dlatego tworzysz element 'h3' z tekstem “Notatki: “.
+
+    - zrobione
+
+9. Lista okazuje się być za duża, dlatego może warto byłoby ją troszkę zwęzić? 
+Za pomocą selektora body określasz szerokość głównego elementu na 400px. 
+Chcesz, aby lista była wyśrodkowana, 
+dlatego w tym samym obszarze ustawiasz wartość marginesu na ‘auto’.
+
+    - zrobione
+
+
+
+10. Ustaw dolny border elementu h1 tak, aby:
+
+**-** jego grubość wynosiła 5px, 
+**-** była to ciągła linia,
+**-** miała kolor czerwony,
+
+Projekt po ukończeniu wszystkich dotychczasowych zadań powinien wyglądać następująco:
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/
+3f7093ee-892b-4604-b3e3-08183a2f6ea9/Untitled.png)
+
+    - zrobione

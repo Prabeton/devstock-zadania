@@ -1,0 +1,95 @@
+## **Zadania:**
+
+Wiemy, że jeszcze nie znasz właściwości, które pozwolą Ci na dowolne ostylowanie elementów, ale...
+
+1. W którym miejscu w kodzie HTML jest odpowiednie miejsce aby zaimplementować **wewnętrzny** CSS?
+
+a) na początku dokumentu
+b) w sekcji <body>
+............................................c) w sekcji <head>
+d) na końcu dokumentu
+
+2. Za pomocą jakiego tagu definiowany jest obszar do wewnętrznego stylowania?
+
+..................................................a) <style>
+b) <script>
+c) <css>
+
+3. W którym miejscu w kodzie HTML jest odpowiednie miejsce aby zaimplementować **zewnętrzny plik .css**? 
+
+a) na początku dokumentu
+b) w sekcji <body>
+...................................................c) w sekcji <head>
+d) na końcu dokumentu
+
+4. Która z poniższych metod pozwoli na utworzenie relacji z zewnętrznym plikiem .css?
+a) <stylesheet>style.css</stylesheet>
+.....................................b) <link rel=”stylesheet” type=”text/css” href=”style.css”>
+c) <style href=”style.css”>style</style>
+
+5. Jakiego atrybutu używa się w celu nadania styli **inline**?
+a) class
+b) styles
+c) script
+............................................................d) style
+
+6. Korzystając z VSC (Visual Studio Code) otwórz, lub utwórz dowolną lokalizację, na swoim komputerze,
+ w której umieścisz nowy plik o nazwie index.html. Wewnątrz sekcji body utwórz element ‘div’, który będzie
+  zawierać tekst ‘Hello World!’ pomiędzy otwierającym a zamykającym tagiem. Kliknij PPM 
+  (skrót od Prawy Przycisk Myszy) gdzieś w obrębie kodu i z menu wybierz ‘Open with Live Server’. 
+  Kolejnym krokiem będzie stworzenie pliku style.css, do którego wkleisz poniższy kod:
+    
+    ```css
+    div {
+      height: 200px;
+      width: 200px;
+      background-color: aqua;
+      border: 2px solid black;
+    }
+    ```  
+    Postaraj się zaimplementować zewnętrzny plik do stylowania do Twojego pliku html i zobaczyć 
+    co się wydarzyło na Twojej stronie.
+    
+    ZROBIONE 
+
+7. W utworzonym wcześniej pliku html postaraj się zaimplementować sposób do wewnętrznego stylowania 
+(patrz krok 2 artykułu). Chcielibyśmy nadać całej stronie pomarańczowy kolor tła. Aby to zrobić użyj 
+w odpowiednim miejscu kodu: 
+    
+    ```css
+    body {
+      background-color: orange;
+    }
+    ```
+   ZROBIONE
+
+8. Wykorzystaliśmy już dwa sposoby stylowania, więc jak zapewne się domyślasz 
+- nadeszła pora na ostatni z nich. Pomiędzy otwierającym a zamykającym tagiem 
+‘div’ umieść element ‘h3’, który będzie zawierać tekst: ‘What a wonderful weather’. 
+Korzystając z możliwości nadawania styli inline wklej poniższy kod:
+    
+    ```css
+    "color: green"
+    ```
+    
+9. *** Jak pamiętasz, utworzyliśmy zewnętrzny plik do stylowania, w którym zawarliśmy blok deklaracji
+ dotyczący elementu “div”. A teraz korzystając ze stylowania inline postaraj się dodać do wspomnianego 
+     tagu poniższy kod (pozostawiając poprzedni blok deklaracji bez zmian):
+    
+    ```css
+    "background-color: rgb(255, 255, 153)"
+    ```
+    
+    Czy zauważyłeś co się stało? Zwróć uwagę, że w tym momencie kolor tła jest zadeklarowany 
+    na dwa różne sposoby dla jednego elementu.
+
+    ZROBIONE
+
+    
+10. *** Czy są inne sposoby dodawania styli do strony ponad te wymienione w artykule?
+
+    Tak. !Importand
+
+
+
+

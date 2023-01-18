@@ -1,0 +1,45 @@
+## Zadania
+
+1. Zainstaluj Gita, wpisz w konsoli samo *`git`* aby zobaczyć jakie inne opcje daje git,
+
+	- zainstalowałem, wpisałem słowo 'git'
+
+2. Wpisz w konsoli `git --version` aby sprawdzić jaką wersję gita posiadasz,
+	
+	- wpisałem 'git --version'
+	git version 2.38.1.windows.1
+
+3. Skonfiguruj swoje user.name oraz user.name,
+	
+	git config --global user.name  "Your Name"
+	git config --global user.email "your Email"
+
+4. Jaka komenda służy do wyświetlenia listy gita, która pokazuje aktualna konfiguracje?
+
+	git config --list	
+
+5. Na podstawie artykułu ze strony 
+[https://www.ajonit.com/git/what-is-git/](https://www.ajonit.com/git/what-is-git/) 
+sprawdź jak popularny jest git na tle innych programów tego samego typu
+
+6. *** Co oznacza skrót SCM?
+	
+	Supply Chain Management - zarządzanie łąńcuchem dostaw/
+
+7. *** Czy wiesz w jakim języku został napisany Git?
+	
+	- C, Bourne Shell, Pearl
+
+8. *** Co robi komenda `git help -a`?
+
+	wyświetla wszystkie możliwe polecenia
+
+9. *** Czy Git to Github?
+
+	Nie! 
+	Git to program. Program do kontroli wersji.
+	GitHub to platforma na której tworzymy swoje repozytoria. usługa hostingowa.
+
+10. Wymyśl zadanie dla innych kursantów tak aby mogli przećwiczyć to co było w powyższym artykule
+
+	wymyślam, wymyślam i nie mogę tego zmaterialnić

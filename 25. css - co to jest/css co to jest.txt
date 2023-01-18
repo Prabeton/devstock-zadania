@@ -1,0 +1,14 @@
+# Zadania
+
+1. Rozwiń skrót CSS.
+
+	- Cascading Style Sheets (kaskadowe arkusze stylów)
+
+2. Czy CSS jest językiem programowania?
+
+	- Nie jest to język programowania a język arkuszy stylów. Dodaje style do konkretnych elementów
+
+3. Jakie rozszerzenie mają pliki css?
+
+	- pliki css mają rozszeżenie .css
+

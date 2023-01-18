@@ -1,0 +1,52 @@
+## Zadania
+
+1. Jaka jest poprawna składnia CSS?
+
+a) p: background-color: yellow;
+*********************************b) p {background-color: yellow;}
+c) p (background-color: yellow;)
+d) p {background-color = yellow;}
+
+2. Jakim znakiem powinna być zakończona każda deklaracja?
+
+    znakiem ';"
+
+3. Jakim znakiem oddzielana jest właściwość od wartości w deklaracji?
+
+    znakiem ':'
+
+4. Jakimi nawiasami powinien się zaczynać i kończyć blok deklaracji?
+
+    - zaczynać {
+    - kończyć }
+
+5. Jeżeli chcesz nadać tę samą deklarację (np. grubość czcionki) 
+kilku selektorom (np. elementom h4 oraz p),
+ to jakim znakiem powinny być od siebie oddzielone selektory? 
+
+    - znakiem ','
+
+6. Jaka jest właściwa składnia przy deklaracji zmiany koloru czcionki?
+
+a) color - purple;
+************************b) color: purple;
+c) color: “purple”;
+d) color = purple;
+
+
+7. Czy blok deklaracji może zawierać tylko jedną deklarację?
+
+    - blok deklaracji może zawierać kilka selektorów
+
+8. Jak przypisalibyście dla elementu różówy kolor tła i czarny kolor czcionki?
+
+        background-color: pink; 
+        color: black;
+
+9. *** Czy tylko elementy HTML mogą być używane jako selektory? 
+
+    - nie tylko, selektorów jest więcej
+
+10. *** Czy da się przypisać te same style do dwóch elementów, używając tagów?
+
+     - tak, np potomek będzie dziedziczył itd

@@ -1,0 +1,78 @@
+## Zadania:
+
+1. Stwórz dokument html z prostą nawigacją i dodaj w <head> znacznik style:
+
+```html
+<body>
+    <div class="container">
+      <div id="nav">
+	      <p>Logo</p>
+        <ul>
+          <li>about</li>
+          <li>contact</li>
+          <li>news</li>
+          <li>gallery</li>
+        </ul>
+      </div>
+      <p>Content</p>
+    </div>
+  </body>
+```
+
+następnie nie ingerując w <body> spróbuj wykonać poniższe zadania:
+
+1. napisz regułę CSS, która sprawi że znacznik <p> o treści Content będzie miał czarne tło i biały kolor fontu. Upewnij się że reguła nie dotyczy <p> o treści Logo,
+
+.container > p {
+        background-color: black;
+        color: white;
+      }
+
+2. napisz regułę CSS która zmieni font na całej stronie za pomocą “font-family”,
+
+body {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+
+
+3. stosując :nth-child(n) napisz regułę, która zmieni kolor fontu ostatniego znacznika <li>,
+
+li:nth-child(4) {
+        color: aquamarine;
+      }
+
+4. stosując :hover napisz regułę, która będzie zmieniać tło wszystkich znaczników <li> na żółty po najechaniu kursorem,
+
+ul :hover {
+        background-color: yellow;
+      }
+
+5. napisz regułę dodającą 10px paddingu do <p> o treści Logo,
+
+#nav > p {
+        padding: 10px;
+      }
+
+6. za pomocą jednego selektora dodaj do obu <div> linię podkreślającą (użyj “border-bottom: 1px solid black”),
+
+.container, #nav {
+        border-bottom: 1px solid black;
+      }
+
+7. użyj selektora # żeby dodać do nawigacji kolor tła,
+
+#nav {
+        background-color: aquamarine;
+      }
+
+8. dodaj do <div> o klasie container 50px marginesu. Upewnij się, że ta reguła nie dotyczy diva z nawigacją. 
+
+.container {
+        margin: 50px;
+      }
+
+9. napisz regułę, która spowoduje że znaczniki <p> będą miały rozmiar fontu 24px.
+
+p {
+        font-size: 24px;
+      }

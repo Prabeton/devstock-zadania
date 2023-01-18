@@ -1,0 +1,52 @@
+## Zadania
+
+1. Stwórz prostą stronę internetową zawierającą jakąś treść. Zmień kolor 
+tekstu na czerwony, gdy szerokość ekranu przekracza 1200px,
+
+@media (min-width: 600px) {
+  .text {
+    color: red;
+  }
+
+2. Dla chętnych - stwórz proste menu zawierające 4 kafelki (linki). 
+Na mobile/tablet (do 600px) powinny być dwa kafelki na górze, dwa na dole, 
+natomiast powyżej 600px wszystkie kafelki powinny się układać obok siebie,
+
+Zrobiłem :) 
+
+3. Na jakiej szerokości kończy się widok mobilny?
+
+    - 600px
+
+4. Czy musimy oznaczać jakoś specjalnie klasy w których robimy responsywność 
+za pomocą media queries?
+
+    Same klasy to nie, tylko musimy o nich napisać w @queries
+
+5. Co oznacza powiedzenie dotyczące stylowania: “Mobile first”?
+
+    Najpier zacznij projekt od widoku mobilnego (do 600px)
+
+6. Czy w warunkach możemy użyć innych wartości niż min-width lub max-width?
+
+    Możemy :)
+
+7. *** Czy ma znaczenie kolejność napisanych `@media queries`?
+
+    - chyba nie, bo przecież zależy to od waruneku (queries) a nie od kolejności.
+    Warunki nie powinny na siebie nachodzić.
+
+8. *** Potrafisz zapisać wartość w media queries za pomocą zmiennych CSS?
+
+    Zaraz zobaczymy ;) 
+    już tak ;)
+
+9. *** Poszukaj statystyk na jakiej rozdzielczości użytkownicy najczęściej 
+korzystają ze stron 🙂
+
+    Poszukam ;)
+
+10. Napisz zadanie dla innych z `@media queries` które Twoim zdaniem 
+będzie fajne do przećwiczenia swoich umiejętności.
+
+    No ale to jak cały pomysł będę miał w głowie i uznam, że może być.

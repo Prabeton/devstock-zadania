@@ -1,0 +1,32 @@
+## Zadania
+
+1. Przekopiuj kod podany jako przykładowy w powyższym artykule do notatnika i odpal stronę,
+<html>
+<head>
+<title>Strona w notatniku</title>
+</head>
+<body>
+<div>Losowy element</div>
+<p>Lorem ipsum</p>
+<button>Wyślij</button>
+</body>
+</html>
+
+2. Czy jak usuniesz jeden z tagów tak, żeby strona miała błąd to wyświetli się jakakolwiek informacja w notatniku?
+	- nie wyświetli się
+
+3. Ten sam kod który włączyłeś w notatniku, odpal sobie w VSC i zobacz różnice w wyglądzie strony,
+	ja w notatniku w ogóle nie umiem ale domyślam się że są
+
+4. Zrób jakikolwiek błąd na stronie w VSC i sprawdź czy dostaniesz od programu informację na ten temat,
+	- dostane
+
+5. Czy da się utworzyć plik z rozszerzeniem .html mający w nazwie spację? np. “moja strona.html”
+	- nie da się
+
+6. *** Czy w notatniku możemy tworzyć kod w innych językach niż tylko z rozszerzeniem html?
+	możemy ale z podobnych powodów nie warto
+
+7. *** Do czego służy debugger w VSC? Czy jest on dostępny w notatniku?
+	
+	- debuggera nie mamy w notatniku. Debugger służy do odnajdywania błędów, śledzenie wykonywania krok po kroku, śledzenie zmiennej, wyłączanie działania części programu. Nie jest to rzeczywiste działanie. 

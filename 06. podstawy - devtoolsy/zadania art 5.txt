@@ -1,0 +1,49 @@
+## Zadania
+
+1. W jakiej zakładce jesteśmy w stanie pisać logikę i normalny kod?
+
+	- w zakładce "elements" i zakładce "Console"
+
+2. Która zakładka służy do podglądania stylów elementów?
+
+	- zakładka: "elements" -> "styles"
+
+3. Jak najszybciej dotrzeć do elementu (czyli otworzyć narzędzia) gdy chcemy poznać jego style?
+
+	- kliknąć na niego w kodzie w zakładce "elements"
+
+4. Czy narzędzia Chrome pomagają w jakiś sposób sprawdzić jak strona będzie się zachowywała na małych ekranach?
+	- tak
+
+5. Czy możemy sprawdzić za pomocą devtools’ów jak nasza strona będzie wyglądała na tablecie?
+	
+	- tak, możemy sprawdzić responsywnść strony (ikonka po lewej od zakładki "elements")
+
+6. Wejdź na dowolną stronę, otwórz narzędzia Chrome i znajdź chociaż jeden dowolny request, który wykonał się poprawnie ze statusem 200 🙂
+
+	Request URL: https://remarkable-smelt-020.notion.site/api/v3/ping
+	Request Method: POST
+	Status Code: 200 
+	Remote Address: 104.18.33.232:443
+	Referrer Policy: strict-origin-when-cross-origin
+
+7. Wejdź na dowolną stronę, zbadaj dowolny element i zmień mu kolor tła lub czcionki
+	
+	zaraz
+	
+
+8. Czy możemy również za pomocą devtools’ow zmienić tymczasowo tekst na stronie na dowolnie napisany przez nas?
+		
+	- tak możemy ale on będzie w pamięci podręcznej. nie zapiszę się na dysku
+
+9. Napisz równanie w konsoli i sprawdź czy dostaniesz poprawny wynik tego równania
+
+	tak dostanę poprawny wynik
+
+
+10. Sprawdź do czego służy zakładka “performance - wydajność” tak abyś mógł komuś wytłumaczyć gdy Cię o nią zapyta.
+
+	wydaje mi się, że zakładka wydajność informuje nas ile czasu zajmuje konkretny proces na stronie tj. renderowania, komunikacja z serwerem, czytanie scryptów i wszelkie procesy
+
+
+

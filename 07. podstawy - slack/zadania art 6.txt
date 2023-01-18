@@ -1,0 +1,28 @@
+## Zadania
+
+1. Przedstaw się na kanale #przedstaw-sie. Możesz wzorować się schematem, który został dołączony jako podpięty post - zrobione
+
+2. Dołącz do każdego powyższego kanału jaki jest dostępny, żeby żadna informacja Ci nie uciekła - chyba zrobione
+
+3. Odpowiedz komuś lub w rozmowie z kimś używając “Reply in Thread” aby przyzwyczajać się do takiej formy odpowiadania na ważne posty
+	- zrobione
+
+4. Stwórz rozmowę dla kilku osób. Rozmowa sama zniknie jeśli nie będziecie jej używać. Warto raz dla testu taką rozmowę utworzyć - zrobione
+
+5. *** Zmień szablon na dark mode - zrobione
+
+6. *** Znajdź miejsce gdzie można wygenerować link do zaproszenia na slack’a - znalazłem
+
+https://devstock-academy.slack.com/archives/C04E92BFS4S (kanał ppm -> copy link)
+
+7. *** Ustaw dowolny status do swojego profilu - zrobione
+
+8. *** Czy wiesz w jakim miejscu na slack’u znajduje się informacja o ilości wiadomości na danej przestrzeni? 
+	
+	- jeszcze nie wiem
+
+9. *** Dodaj nową emotkę do slack’a. To nie jest nigdzie wyjaśnione ale z pewnością pomoże Ci lepiej poznać ten komunikator oraz będzie to zadanie rozwijające umiejętność szukania informacji w internecie.
+
+	- dodałem swoją gębę ale nie wiem czy to to
+
+10. *** Dodaj sobie zdjęcie jako avatar do swojego konta aby inni mogli Cię z nim szybko skojarzyć.- dodałem

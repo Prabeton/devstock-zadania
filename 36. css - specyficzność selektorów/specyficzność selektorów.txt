@@ -1,0 +1,109 @@
+## Zadania
+
+1. Jaka jest odpowiednia kolejność dla specyficzności selektorów 
+(zaczynając od najważniejszej)?
+
+a) 1) inline → 2) klasy → 3) id → 4) elementy
+b) 1) klasy→ 2) inline→ 3) id → 4) elementy
+
+******************** c)  1) inline → 2) id→ 3) klasy→ 4) elementy
+
+d)  1) elementy→ 2) klasy → 3) id → 4) inline
+
+2. Jaki atrybut nadpisuje wszystkie wcześniej zdefiniowane wartości dla 
+danej właściwości w CSS?
+
+a) !priority,
+b) !strong,
+c) !major,
+**********************d) !important,
+
+3. Utwórz plik HTML z poniższym kodem lub skorzystaj 
+z [https://jsfiddle.net/](https://jsfiddle.net/) 
+i wklej w odpowiednią sekcję: 
+
+    
+    ```html
+    <div class="menu">
+       <ul class='nav-bar'>
+        <li >
+          <button class='home' id='home'>
+            Home
+          </button>
+        </li>
+        <li >
+          <button >
+            About me
+          </button>
+         </li>
+        <li >
+          <button >
+            FAQ
+          </button>
+         </li>
+       </ul>
+    </div>
+    ```
+    
+    W zewnętrzym pliku CSS, lub w sekcji do stylowania wklej:
+    
+    ```css
+    div {
+      background-color: #f5c542;
+      width: 120px;
+      height: 100vh;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    ul li {
+      margin-bottom: 10px;
+    }
+    ```
+    
+4. Korzystając z odpowiedniego selektora, nadaj wszystkim buttonom 
+poniższe deklaracje: 
+    
+    ```css
+     width: 100px;
+     background-color: #07a5e3;
+     border-radius: 5px;
+    ```
+ZROBIONE
+    
+5. Wykorzystując dwa elementy: **li** oraz **button** stwórz selektor, 
+który nadpisze background-color dla wszystkich buttonów i nada mu wartość 
+#e0d507.
+
+ZROBIONE
+
+6. Korzystając z odpowiedniego selektora, nadaj  tylko buttonowi 
+o klasie=**“home”** background-color o wartości #07e03d.
+
+ZROBIONE
+
+7. Wykorzystując dwie klasy stwórz selektor, który nadpisze 
+background-color dla buttona Home o wartości #e007bc.
+
+ZROBIONE
+
+8. Wykorzystując odpowiedni selektor nadaj tylko buttonowi 
+o **id=’home’** background-color o wartości: #07e0bf.
+
+ZROBIONE
+
+9. Korzystając ze stylowania inline nadaj buttonowi **Home** 
+background-color o wartości **red**.
+
+ZROBIONE
+
+10. Wróc w kodzie CSS do momentu, gdzie nadawałeś style dla wszystkich 
+buttonów tylko za pomocą selektora elementu i do wartości background-color
+ dopisz atrybut **!important.**
+
+ ZROBIONE
+
+ 

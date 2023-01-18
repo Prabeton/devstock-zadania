@@ -1,0 +1,42 @@
+## Zadania
+
+1. Jaką komendą sprawdzimy które pliki są aktualnie śledzone?
+
+	git status
+
+2. Jaką komendą wypychamy commit do repozytorium?
+
+	git push 
+
+3. Jaką komendą dodajemy wszystkie pliki do śledzenia?
+
+	git add *
+
+4. Stwórz dowolny plik w nowym folderze na komputerze i wypchnij to do swojego repozytorium,
+
+	-z robione
+
+5. Jakiej komendy użyjesz żeby zrobić commit o nazwie “Adds new feature”?
+
+	git commit -m "Adds new feature"
+
+6. Jak napiszesz komendę w konsoli, która zacznie śledzić plik index.html?
+
+	git add "index.html"
+
+7. *** Jakiej komendy używamy do klonowania repozytorium na komputer?
+
+	git clone https.....
+
+8. *** Jaką komendą tworzymy nowy branch?
+
+	git branch nowy-branch
+
+9. *** Czy da się cofnąć plik który został dodany do śledzenia?
+
+	git rm --cached "plik"
+	git reset (cofa śledzenie wszystkich plików)
+
+10. *** Czy nazwa commit’a może posiadać spacje?
+
+	nie

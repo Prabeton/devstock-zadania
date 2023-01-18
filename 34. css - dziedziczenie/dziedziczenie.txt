@@ -1,0 +1,59 @@
+## Zadania
+
+1. Jakie właściwości domyślnie są dziedziczone?
+
+    - rozmiar czcionki, kolor, czcionka jako taka
+    - background-color
+
+2. Jaka właściwość odpowiada za dziedziczenie?
+
+    Nie rozumiem do końca pytania, 
+    ale chyba chodzi o to czy elementy są spokrenione
+    typem rodzic - dziecko 
+
+3. Czy w podanym kodzie element <h2> odziedziczy 
+style po elemencie <div>?
+
+<body>
+    <div>
+        <p>Lorem ipsum</p>
+    <div>
+    <h2>
+        Tytuł
+    </h2>
+</body>
+
+Nie, gdyż jest jego bratem a po bracie się nie dziedziczy.
+
+4. Czy w powyższym przykładzie element <p> jest dzieckiem elementu body?
+
+Tak
+
+5. Jeśli używając nomenklatury rodziny, dziadek będzie miał 
+font-family Gilroy Regular, 
+a jego dziecko będzie miało font-family: system-ui, to jaką c
+zcionkę odziedziczy wnuk naszego dziadka?
+
+- Gilroy Regular
+
+6. Czy oprócz font oraz color są jeszcze jakieś właściwości, 
+które są dziedziczone domyślnie?
+
+Tak, background-color
+
+7. Gdzie umieścić style aby były dziedziczone w całym projekcie?
+
+    html{
+
+    }
+
+8. *** Jaka właściwość CSS odpowiada za to czy dana właściwość 
+jest dziedziczna czy nie?
+
+9. *** Czy możemy zmienić dziedziczność elementu?
+
+    możemy
+
+10. Wymyśl zadanie dla innych osób aby mogli 
+przećwiczyć dziedziczność.
+

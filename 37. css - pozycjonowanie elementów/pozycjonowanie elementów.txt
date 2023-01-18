@@ -1,0 +1,219 @@
+## Zadania
+
+1. Jaka wartość jest przypisana domyślnie do artybutu *position*?
+
+a) relative,
+b) sticky,
+**************** c) static,
+d) fixed.
+
+2. Jaka wartość przypisana do atrybutu *position* pozwala na pozycjonowanie
+ elementu względem przodka?
+
+a) relative, 
+b) fixed, 
+************************** c) absolute,
+d) sticky.
+
+3. Jaka wartość przypisana do atrybutu *position* pozwala na pozycjonowanie
+ elementu względem pierwotnego usytuowania elementu?
+
+88888888888888888888888 a) relative, 
+b) static,
+c) sticky,
+d) absolute.
+
+4. Jaka wartość przypisana do atrybutu *position* pozwala na pozycjonowanie 
+elementu bezpośrednio względem elementu html?
+
+a) relative, 
+88888888888888888888 b) fixed,
+c) sticky,
+d) absolute.
+
+5. Na podstawie poniższego kodu trzeba będzie stworzyć wierną kopię strony 
+internetowej przedstawionej na zrzucie ekranu, ze szczególnym uwzględnieniem 
+umiejscowienia elementów w układzie strony. 
+część HTML:
+    
+		- NIE ROZUMIEM KONKRETNIE O CO CHODZI W TYM ZADANIU -
+
+    ```bash
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Photography</title>
+        <link rel="stylesheet" href="style.css" />
+      </head>
+      <body>
+        <div class="main">
+          <div class="side-bar">
+            <div class="menu-wrapper">
+              <div class="menu-item">About me</div>
+              <div class="menu-item">My portfolio</div>
+              <div class="menu-item">FAQ</div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="list-wrapper">
+              <div class="list-element">
+                Fotografie to kęsy czasu, które można wziąć do ręki.
+              </div>
+              <div class="list-element offset">
+                Rutynowo fotografuję w myśli wszystko, co widzę.
+              </div>
+              <div class="list-element">
+                Kupno Nikona nie czyni Cię fotografem. Stajesz się zaledwie
+                posiadaczem Nikona.
+              </div>
+              <div class="list-element offset">
+                Staraj się pokazać to, czego bez Ciebie, nikt by nie zobaczył.
+              </div>
+              <div class="quote-sign top">"</div>
+              <div class="quote-sign bottom">"</div>
+            </div>
+            <div class="img-wrapper">
+              <img
+                src="https://www.howtogeek.com/wp-content/uploads/2021/12/DSLR-Camera-Header.jpg?width=720&height=450&fit=crop&trim=2,2,2,2&fit=crop"
+                alt="camera"
+              />
+            </div>
+            <div class="text-wrapper">
+              "At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+              et quas molestias excepturi sint occaecati cupiditate non provident,
+              similique sunt in culpa qui officia deserunt mollitia animi, id est
+              laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
+              distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
+              cumque nihil impedit quo minus id quod maxime placeat facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+              autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+              eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+              Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+              voluptatibus maiores alias consequatur aut perferendis doloribus
+              asperiores repellat."
+            </div>
+          </div>
+          <div class="footer">Created by: Twoje imię</div>
+        </div>
+      </body>
+    </html>
+    ```
+    
+część CSS:
+    * {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 3000px;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.side-bar {
+  height: 100%;
+  min-width: 150px;
+  background-color: #eeded2;
+}
+
+.menu-wrapper {
+  position: fixed;
+  top: 2%;
+  left: 25px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 30px;
+  border-radius: 7px;
+  background-color: #b5ced4;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  flex: 1;
+  height: 100%;
+  background-color: #e7e4e0;
+  padding: 40px;
+}
+
+.list-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.list-element {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  min-height: 40px;
+  line-height: 20px;
+  width: 70%;
+  background-color: #eeddd1;
+  border-radius: 10px;
+  box-shadow: 5px 10px 8px 4px #888888;
+}
+
+.offset {
+  position: relative;
+  left: 40px;
+}
+
+.img-wrapper {
+  position: sticky;
+  top: 40px;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.text-wrapper {
+  margin: 0 auto;
+  width: 20%;
+}
+
+.quote-sign {
+  position: absolute;
+
+  font-size: 120px;
+  font-weight: 900;
+}
+
+.top {
+  top: -30px;
+  right: 0;
+}
+
+.bottom {
+  bottom: -69px;
+  left: 0;
+}
+
+.footer {
+  position: fixed;
+  height: 20px;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  background-color: #b5ced4;
+}
+
+***************************************************************************************************

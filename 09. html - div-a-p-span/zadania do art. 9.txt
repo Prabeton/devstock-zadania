@@ -1,0 +1,52 @@
+# Zadania
+
+1. Stwórz prostą strukturę HTML. Strona powinna zawierać informacje o Tobie (np. imię, nazwisko, wiek) i Twoje zdjęcie. Możesz stworzyć stronę o dowolnej tematyce. Eksperymentuj do woli.
+
+	- zrobione
+
+2. Jak używając tagu <a> możemy otworzyć link w nowym oknie przeglądarki? (tego nie ma w artykule - chodzi o użycie atrybutu “target”)
+
+	<a href="https://www.google.com/" target="_blank">GOOGLE</a>
+
+3. ****Jaki jest efekt tego, że element <p> jest elementem blokowym?
+	
+	- chodzi o to,że zajmuje całą szerokść strony 
+	- możemy ustawić tekst jak chemy względem innych bloków i edytować tekst wewnątrz niego np <br>
+
+
+4. ****Jaką wysokość i szerokość domyślnie przyjmuje tag <div>?
+
+	- zajmuje szerość całej strony a wysokość ma taką jak trześć w środku
+
+
+5. Jaką rolę spełnia atrybut “alt” w tagu <img />?
+
+	- wyświelta alternatywny tekst jakby zdjęcie się nie załadowało
+
+6. Stwórz stronę, która będzie wyglądała następująco:
+
+    - zrobiłem podobną 
+
+
+7. ******* Stwórz stronę w HTMLu która będzie zawierała tytuł strony, podtytuł oraz zdjęcie z zaimportowanym plikiem z komputera, który będzie się znajdował w folderze images. Plik index html powinien być na równi z tym folderem.
+
+		- zrobiłem
+
+
+8. ******* Jeśli zdjęcie znajduje się w folderze o jeden stopień na zewnątrz od pliku HTML jak przedstawione na zdjęciu poniżej to jakiej ścieżki użyjesz ?
+- <img src="../005.jpg"
+      alt="z katalodu wyżej"
+      style="width: 145px; height: 205px"
+    />
+
+9. ******* Czy da się do atrybutu src w img wstawić link do zdjęcia zamiast ścieżki do zdjęcia z komputera?
+
+	- można wziąłem z fb
+
+	<img alt="Może być zdjęciem przedstawiającym co najmniej jedna osoba, broda i okulary" class="xzg4506 xycxndf xua58t2 x4xrfw5 x1lq5wgf xgqcy7u x30kzoy x9jhf4c x9f619 x5yr21d xl1xv1r xh8yej3" referrerpolicy="origin-when-cross-origin" src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/272854470_4949674355091193_7828616277046914873_n.jpg?stp=c0.23.206.206a_dst-jpg_p206x206&amp;_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=da31f3&amp;_nc_ohc=hGxRfdB0UuAAX8DAHMT&amp;_nc_ht=scontent-waw1-1.xx&amp;oh=00_AfB5rmFhDVjLox1sZLrAuaHGTxnMNAho739GZJZ9PJ4Wnw&amp;oe=63BDC5EC">
+
+
+10. ******* Ułóż sam 3 zadania o 3 poziomach trudności (łatwe, średnie, trudne), które uważasz, że byłoby ciekawe dla innych użytkowników
+
+	- to te zadania to mam ciągle w procesie przygowania ;)
+

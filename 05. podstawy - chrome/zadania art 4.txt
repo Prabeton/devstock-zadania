@@ -1,0 +1,46 @@
+## Zadania
+
+1. Porównaj w statystyce jaka różnica jest w popularności między przeglądarką Chrome a Mozilla,
+	
+	chrom 63%
+	safsari 19%
+	firefox 3,5%
+
+2. Zainstaluj przeglądarkę Chrome jeśli jej nie masz,
+	
+	- mam, ale niedawno instalowałem ;)
+
+3. Zainstaluj inną przeglądarkę np. Mozille i sprawdź czy jest różnica w prędkości działania,
+	- inną mam edga'a i wydaje mi się, że edge działa szybciej :)
+
+4. *** Znajdź w internecie inną statystykę, która opisuje popularność przeglądarek,
+
+	Google – 84,16%
+	Bing – 9,56%
+	Yahoo! – 2,62%
+	Yandex – 1,19%
+	DuckDuckGo – 0,85%
+	Inne – 1,62%.
+
+5. *** Wyszukaj informacje na temat paczki React Developer Tools,
+
+	React Developer Tools to rozszerzenie Chrome DevTools dla otwartej biblioteki React JavaScript. 
+Pozwala sprawdzić hierarchie komponentów React w Chrome Developer Tools.
+
+Otrzymasz dwie nowe zakładki w Chrome DevTools: „⚛️ Komponenty” i „⚛️ Profiler”.
+
+Zakładka Komponenty pokazuje główne komponenty React, które zostały wyrenderowane na stronie, 
+a także komponenty podrzędne, które zostały przez nie wyrenderowane.
+
+Wybierając jeden z komponentów w drzewie, możesz sprawdzić i edytować jego aktualne rekwizyty 
+i stan w panelu po prawej stronie. W bułce tartej możesz sprawdzić wybrany komponent, 
+komponent, który go utworzył, komponent, który go utworzył i tak dalej.
+
+Jeśli sprawdzisz element React na stronie za pomocą zwykłej zakładki Elementy, 
+a następnie przełączysz się na zakładkę React, ten element zostanie automatycznie wybrany w drzewie React.
+
+Karta Profiler umożliwia rejestrowanie informacji o wydajności.
+
+To rozszerzenie wymaga uprawnień dostępu do drzewa React strony, ale nie przesyła zdalnie żadnych danych. 
+Jest w pełni open source, a jego kod źródłowy można znaleźć na 
+https://github.com/facebook/react/tree/master/packages/react-devtools-extensions.

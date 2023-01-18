@@ -1,0 +1,45 @@
+## Zadania
+
+1. Jaka właściwość CSS przekształca element na flexboxa?
+
+		diplay:flex
+
+2. Jaką wartość domyślnie posiada właściwość flex-direction?
+
+		:row
+
+3. Podaj dwie podstawowe wartości do ustawiania elementu wzdłuż głównej osi i prostopadle do niej,
+
+		justify-content
+					align-items
+
+4. Jaką wartość `justify-content` użyjemy aby ustawić elementy oddalone od siebie i od zewnętrznych krawędzi o tą samą szerokość?
+	
+		justify-content:space-around
+
+5. Jaka wartość `align-items` ustawia elementy na środku?
+
+		:center
+
+6. Do czego służą właściwości `align-self` oraz `justify-self`?
+
+		do rozmieszczenia jednego elementu:
+
+		justify-self  --> wzdłóż głównej isi
+		align-self    --> wobec równoległej
+
+7. Który blok będzie wyświetlał się pierwszy? Ten z order: 0 czy order: -1?
+
+		ten z order:-1
+
+8. Do czego służy właściwość `flex-wrap`?
+
+		do zamiany wierszy na kolumny i na odwrót i do zrobienia reversed (odwrócony wiersz lub kolumna)
+
+9. Czym różni się `align-items` od `align-content`?
+
+			align-items     --> rozmieszczenie wzdłóż osi poprzecznej ale jednej linii
+			align-contents  --> rozmieszczenie kilku lini względem osi poprzecznej
+
+
+10. Wymyśl zadanie z flexboxa dla innych :)

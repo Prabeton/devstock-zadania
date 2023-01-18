@@ -1,0 +1,62 @@
+1. Stwórz prosty projekt html i dodaj znacznik style w headzie:
+
+```html
+<!-- w headzie -->
+<style>
+
+</style>
+
+<!-- w body -->
+<div class="container"></div>
+<div class="box"></div> 
+```
+ZROBIONE
+
+1. włącz do projektu zewnętrzny arkusz css za pomocą poniższego linku w headzie:
+
+a następnie dodaj podstawowe reguły do arkusza,
+
+```css
+* {
+  margin: 50px;
+  background-color: wheat;
+}
+```
+ZROBIONE
+
+1. ostyluj oba divy aby miały wymiary 200x200px oraz różne kolory, na przykład czerwony i pomarańczowy,
+
+ZROBIONE
+
+2. przejdź do wewnętrznego arkusza styli w head i nadpisz style diva o klasie box, zmieniając kolor na zielony,
+
+ZROBIONE
+
+3. pod regułą z zadania 4 umieść drugą identyczną regułę zmieniającą kolor na niebieski,
+
+ZROBIONE
+
+4. przejdź do znaczników html i zmień kolor diva o klasie container za pomocą stylu liniowego na fioletowy,
+
+ZROBIONE
+
+5. użyj selektora * w wewnętrznym arkuszu styli w head aby nadpisać marginesy (ustal je na 10px),
+
+ZROBIONE
+
+6. spróbuj ostylować znacznik <body> stylem liniowym i zaobserwuj efekt,
+
+ZROBIONE
+
+7. spróbuj stworzyć we wnętrzu jednego z elementów kolejny div, ostyluj go różnymi sposobami które poznałeś. Zaobserwuj które z reguł są brane pod uwagę według zasad kaskadowości. Nadaj elementowi własną klasę i za jej pomocą dokończ zadanie,
+
+ZROBIONE
+
+8. dodaj do stworzonego przez siebie diva id, a następnie nadpisz poprzednie style używając selektora id - (zrób to w wewnętrznym arkuszu styli).
+
+ZROBIONE
+
+---------------------------------------
+```html
+<link rel="stylesheet" href="style.css"> 
+```

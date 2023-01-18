@@ -1,0 +1,65 @@
+# Zadania
+
+1. Stwórz swój pierwszy dokument HTML. W body umieść dowolną treść i sprawdź czy wyświetla się na stronie.
+
+	- dobra! zaraz zrobię :D...
+	taki mam :D
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    Hello World!
+  </body>
+</html>
+
+
+2. ****Odszukaj w internecie dowolny znacznik HTML i umieść w nim treść. Widzisz jakieś efekty?
+
+	<title>
+	<details>
+
+
+3. ****Co oznacza charset=”utf-8” w tagu meta?
+
+	- oznacza, że będziemy używać systemu znaków z klawiatury
+
+4. ****Czy HTML można nazwać językiem programowania?
+
+	- jak najbardziej ;) nawet jestem w stanie bronić tego twierdzenia! Ale jestem w stanie również bronić odmiennej tezy :)
+
+
+
+5. ****Zmień zawartość znacznika title. Co to spowodowało?
+
+	no takie jak w pkt.2 ;)
+
+
+6. ******* Dodaj opis strony. **(Podpowiedź: Użyj znacznika meta z odpowiednimi atrybutami)** 
+
+		<meta name="description" content="opis mojej strony"/>
+
+
+7. ******* Dodaj autora strony. **(Podpowiedź: Użyj znacznika meta z odpowiednimi atrybutami)** 
+
+		<meta name="author" content="Przemek Woźniak"/>
+
+
+8. ******* Dodaj słowa kluczowe strony. **(Podpowiedź: Użyj znacznika meta z odpowiednimi atrybutami)** 
+
+		<meta name="keywords" content="taki, argumenty, atrybyty"/>
+
+
+9. *** Dodaj favicone do tytułu. **(Podpowiedź: Użyj znacznika link z odpowiednimi atrybutami)** 
+
+		  <link rel="icon" type="image/png" href="icon2.png" />
+
+10. ******* Ułóż zadanie, które uważasz, że byłoby ciekawe dla innych użytkowników.
+
+	- jeszcze myślę ;)
+
+
+
+
+
+
+

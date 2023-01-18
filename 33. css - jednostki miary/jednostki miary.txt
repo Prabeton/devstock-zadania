@@ -1,0 +1,107 @@
+## Zadania:
+
+**Stwórz prosty projekt obejmujący dwa div-y:**
+
+```html
+<div class="parent">
+    Lorem ipsum
+    <div class="child">Lorem ipsum</div>
+</div>
+```
+
+Oraz reguły css:
+
+```css
+html {
+
+}
+
+.parent {
+
+}
+
+.child {
+
+}
+```
+
+## Zadania
+
+1. **Piksele:** 
+- użyj CSS i właściwości `background-color:` aby nadać elementowi .parent i .child 
+wybrane kolory,
+- nadaj mu wymiary 400px wysokości i 400px szerokości (używając `width:` oraz `height:`)
+
+OK 
+
+2. **Procenty:** 
+- nadaj elementowi .child wysokość i szerokość o wartości 50% 
+- dla obserwowania efektów możesz również zastosować inne wartości procentowe
+ i obserwować efekty,
+
+OK
+
+3. **VH/VW:** 
+Zmień wysokość i szerokość elementu .parent:
+- szerokość na połowę szerokości okna przeglądarki
+- wysokość na połowę wysokości okna przeglądarki
+a następnie spróbuj dynamicznie zmieniać rozmiar okna przeglądarki obserwując jak element 
+zmienia swoje wymiary w zależności od rozmiaru okna. Spróbuj zmienić wartości i obserwuj e
+fekty w oknie przeglądarki.
+
+OK 
+
+**Zwróć uwagę jak zmienia się rozmiar elementu dziecka .child posiadającego wartości 
+procentowe rodzica**
+
+ZMIENIA SIĘ RAZEM Z RODZICEM
+
+4. **VH/VW**:
+Zmień **wysokość i szerokość** elementu .parent na połowę szerokości okna 
+przeglądarki, zaobserwuj jak element zachowuje się przy zmianach wysokości i szerokości okna.
+
+ZMIENIA SIE
+
+5. **EM:** 
+- Do styli elementu .parent dodaj rozmiar fontu o wartości 15px
+- użyj jednostki EM aby font elementu .child miał rozmiar 45px, 
+
+OK
+
+6. **REM:** 
+- dodaj w css regułę:
+
+```css
+html {
+  font-size: 20px;
+}
+```
+
+- użyj jednostki REM aby `font-size:` elementu .parent miał 30px
+- użyj jednostki REM aby `font-size:` elementu .child miał 10px
+
+OKś
+
+1. **REM - zmiana wartości źródłowej:** 
+- zmień wartość fontu w znaczniku html i zaobserwuj jak zmienia się font we wszystkich 
+naszych elementach,
+
+ZMIENIAJĄ SIĘ PŁYNNIE
+
+2. **REM - wysokość i szerokość:**
+- zmień w html `font-size:` na 10px,
+- użyj jednostki **rem** aby ustalić **wysokość i szerokość** elementu .parent na 500px,
+
+OK
+
+3. **EM - wysokość i szerokość:** 
+- zmień `font-size:` elementu .parent na 1rem,
+- zastosuj jednostkę **em**, aby ustalić **wysokość i szerokość** elementu .child na 300px,
+
+OK
+
+4. Spróbuj zastosować inne typy jednostek dla szerokości okna a inne dla wysokości
+- następnie spróbuj sprawić aby .parent miał wysokość 90% okna przeglądarki 
+i szerokość 200px, a .child szerokość połowy rodzica i połowy wysokości okna przeglądarki.
+
+OK

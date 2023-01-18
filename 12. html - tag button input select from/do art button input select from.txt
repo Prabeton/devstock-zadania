@@ -1,0 +1,55 @@
+### Zadania
+
+1. Stwórz prosty formularz pobierający od użytkownika:
+- imię
+- email
+- hasło
+      <p>Nick <input name="nick" type="text" /></p>
+      <p>Email <input name="email" type="email" /></p>
+      <p>Hasło <input name="password" type="password" /></p>
+      <p>Wiek <input name="wiek" type="number" name="wiek" /></p>
+
+Użyj odpowiednich typów inputów. 
+
+
+4. Stwórz select z 5 dowolnymi opcjami do wyboru.
+
+        <select name="kim jesteś?">
+        <option value="człowiek">człowiek</option>
+        <option value="małpa">małpa</option>
+        <option value="żółw">żółw</option>
+        <option value="motyl">motyl</option>
+        <option value="żaba">żaba</option>
+        </select>
+
+
+2. ******* Pobaw się z wybranymi 5 typami inputów
+        <input type="checkbox" />
+        <input type="submit" value="Wyslij" />
+        <input type="radio" />
+        <input type="reset" />
+        <input name="wiek" type="number" name="wiek" />
+        <input type="File" />
+        <input type="color" />
+
+
+3. ******* Jakie istnieją rodzaje przycisków, czyli tagu <button> ?
+     - baton i submit
+
+5. ******* Stwórz select, w którym pierwsza opcja jest domyślna.
+        <option selected value="żaba">żaba</option>
+
+6. ******* Dlaczego formularze muszą być owrapowane tagiem <form>?
+    - aby było wiadomo co wchodzi w skład formularza
+
+7. ******* Czy da się zrobić color picker za pomocą buttona lub inputa?
+    <input type="color" />
+    
+8. ******* Czy jest jakikolwiek button lub input, który pozwala na dołączanie plików z komputera?
+    <input type="File" />
+
+9. ******* Co to jest placeholder? Stwórz input tekstowy i wykorzystaj placeholder z dowolną wartością.
+    - to jest inbox z wpisaną informacją co wpisać
+
+10. ******* Stwórz 3 zadania o różnym poziomie trudności (łatwe, średnie, trudne) związane z tematyką z powyższego artykułu dla innych użytkowników.
+    - oczywiście myślę ;)
